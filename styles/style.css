@@ -170,6 +170,9 @@ main{
 .love-des{
     margin-top: -20px;
 }
+.love-img img{
+        width: 100%;
+    }
 
 .card{
     height:  171px;
@@ -316,6 +319,16 @@ main{
     .pager-footer p{
         font-size: 13px;
 
+    }
+    .love{
+        flex-direction: column;
+    }
+    /* .love-img{
+        width: 100%;
+    } */
+    #exp-badge{
+        margin-top: 20px;
+        margin-left: 5px;
     }
 }
 

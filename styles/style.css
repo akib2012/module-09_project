@@ -102,6 +102,9 @@
 .banner-des{
     padding-bottom: 22px;
 }
+header{
+    padding-bottom: 30px;
+}
 
 /* resposive media query */
 
@@ -109,6 +112,51 @@
 @media screen and (max-width: 576px){
     .navbar, .nav-links{
         flex-direction: column;
+        align-items: center;
     }
     
 }
+
+/* main style kore */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 5.31rem;
+
+}
+
+.teams{
+    display: flex;
+    gap: 4.56rem;
+    align-items: center;
+    
+}
+.teams-features{
+    max-width: 537px;
+}
+.Quick-style{
+    font-weight: 500;
+
+}
+.Quick-style2{
+    color: #FF900E;
+    font-weight: bold;
+
+}
+
+.feture-des{
+    line-height: 26px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+.teams-picture{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.feture-title {
+    font-size: 2.81rem;
+    font-weight: ;
+}
+
